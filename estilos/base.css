@@ -1,0 +1,12 @@
+.nombre {
+    display: flex;
+    justify-content: space-between;
+}
+
+form {
+    width: 400px;
+}
+
+form > div {
+    padding: 10px;
+}
