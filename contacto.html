@@ -9,24 +9,30 @@
     <link rel="stylesheet" href="estilos/large.css">
 </head>
 <body>
-    <header>
-        <img src="imagenes/check-mark.jpg" alt="Logo">
-        <p>Test Empresa</p>
-
+    <header id="header-1">
+        <div class="container-logo">
+            <img src="imagenes/check-mark.jpg" alt="Logo">
+        </div>
+        <div>
+            <h1>Test Empresa</h1>
+        </div>
         <nav>
             <ul>
                 <li><a href="/">Home</a></li>
                 <li><a href="acercade.html">Acerca de</a></li>
                 <li><a href="contacto.html">Contacto</a></li>
+                <li><a target="_blank" href="https://devssoft.es">Devssoft</a></li>
             </ul>
         </nav>
 
     </header>
 
     <main>
-        <section>
-            <h1>Contacto</h1>
-            <p>Ingresa tu datos para que te contactemos</p>
+        <section class="container-form">
+            <div class="container-title">
+                <h1>Contacto</h1>
+                <p>Ingresa tu datos para que te contactemos</p>
+            </div>
             <form action="">
                 <div class="nombre">
                     <div>
@@ -59,14 +65,14 @@
                     </select>
                 </div>
 
-                <div>
-                    <label for="">test</label><br>
+                <div class="container-inputs">
                     <input type="checkbox" name="test" id="test">
+                    <label for="">test</label>
                 </div>
 
-                <div>
-                    <label for="">test</label>
+                <div class="container-inputs">
                     <input type="color" name="" id="">
+                    <label for="">test</label>
                 </div>
                 <div>
                     <label for="">email</label><br>
@@ -78,15 +84,24 @@
                     <input type="password" name="" id="">
                     <br>
                 </div>
-                <div>
-                    <label for="">test</label><br>
-                    <input type="radio" name="test_" id="">
-                    <label for="">test</label><br>
-                    <input type="radio" name="test_" id="">
-                    <label for="">test</label><br>
-                    <input type="radio" name="test_" id="">
-                    <label for="">test</label><br>
-                    <input type="radio" name="test_" id="">
+                <div class="container-radio">
+                    <p></p>
+                    <div>
+                        <input type="radio" name="test_" id="">
+                        <label for="">test</label><br>
+                    </div>
+                    <div>
+                        <input type="radio" name="test_" id="">
+                        <label for="">test</label><br>
+                    </div>
+                    <div>
+                        <input type="radio" name="test_" id="">
+                        <label for="">test</label><br>
+                    </div>
+                    <div>
+                        <input type="radio" name="test_" id="">
+                        <label for="">test</label><br>
+                    </div>
                 </div>
 
                 <div>

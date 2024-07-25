@@ -1,3 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section, article, footer, table {
+    padding: 20px;
+}
+
 .nombre {
     display: flex;
     justify-content: space-between;
@@ -9,4 +18,124 @@ form {
 
 form > div {
     padding: 10px;
+}
+
+/* Estilos del encabezado */
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* . usando un punto llamo una clase */
+/* # usando un hashtag llamo un id */
+
+/* Estilos del logo */
+
+.container-logo {
+    width: 60px;
+}
+
+.container-logo img {
+    width: 100%;
+}
+
+/* Cascade style sheet */
+
+/* Estilos de navegación */
+
+/* Caso de especificidad */
+
+#header-1 {
+    background-color: #218c9f;
+}
+
+header {
+    background-color: #2a2d2d;
+    padding: 10px;
+}
+
+/* Caso de especificidad */
+
+
+header nav {
+    width: 50%;
+    margin: auto;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header * {
+    color: #fff;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilos formulario */
+
+.container-title {
+    width: 400px;
+    margin: auto;
+}
+.container-form form {
+    margin: auto;
+    background-color: #218c9f;
+    background-image: url(../imagenes/test.png);
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    padding: 10px;
+    color: #fff;
+}
+
+.container-form form input, .container-form form select {
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.container-form form select {
+    width: 50%;
+}
+
+.container-title * {
+    padding: 10px;
+}
+
+.container-inputs {
+    display: flex;
+    align-items: center;
+}
+
+.container-inputs * {
+    margin-right: 10px;
+}
+
+#test {
+    width: 30px;
+    height: 30px;
+}
+
+.container-radio input[type=radio] {
+    width: 30px;
+    height: 30px;
+}
+
+.container-radio div {
+    display: flex;
+    align-items: center;
+}
+
+.container-radio div label {
+    margin-left: 7px;
 }
