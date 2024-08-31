@@ -1,0 +1,89 @@
+.principal h2 {
+    text-align: center;
+}
+.principal picture {
+    display: block;
+    width: 300px;
+    margin: auto;
+}
+.principal picture img {
+    width: 100%;
+}
+.nombres {
+    font-family: cursive;
+    font-size: 30px;
+    text-align: center;
+}
+.fecha {
+    font-family: cursive;
+    font-size: 15px;
+    color: #b0b0b0;
+    text-align: center;
+}
+.descripcion picture {
+    display: block;
+    width: 300px;
+    margin: auto;
+}
+.descripcion picture img {
+    width: 100%;
+}
+.descripcion h3 {
+    text-align: center;
+}
+.descripcion .fecha2 {
+    text-align: center;
+    color: #b0b0b0;
+}
+.Faltan {
+    text-align: center;
+}
+.contenedor-conteo {
+    background-color: rgb(107, 201, 111);
+    display: flex;
+}
+.conteo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+}
+.conteo span {
+    display: flex;
+    justify-content: center;
+
+}
+.numero-grande {
+    font-size: 30px;
+}
+.grid {
+background-image: url("comprarVentasMeses.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+min-height: 200px;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+}
+.parrafo-principal {
+    text-align: center;
+    grid-column: 1/4;
+}
+.padresnovio-titulo {
+    grid-column: 1/2;
+}
+.padresnovio {
+    grid-column: 1/2;
+}
+.padresnovia-titulo {
+    grid-row: 2/3;
+    grid-column: 3/4;
+}
+.padresnovia {
+    grid-row: 3/4;
+    grid-column: 3/4;
+}
+.padresnovia2 {
+    grid-row: 4/5;
+    grid-column: 3/4;
+}
